@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(4, 21, 39)
+}
+
+nav{
+    color: aliceblue;
+    margin-left: 900px;
+    margin-top: 100px;
+    border: solid 1px;
+    align-items: center;
+}
+#name{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(59, 62, 65);
+    border: 1solid red 1px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+#email{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(59, 62, 65);
+    border: 1solid red 1px;
+    margin-top: 15px;
+    color: aliceblue;
+}
+#message{
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(59, 62, 65);
+    border: 1solid red 1px;
+    margin-top: 15px;
+    color: aliceblue;
+}
+h3{
+    color: rgb(143, 25, 25);
+    margin-top: -230px;
+    margin-left: 50px;
+}
+h2{
+    color: white;
+    margin-left: 50px;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.item{
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+a{
+    margin-left: 51px;
+    font-size: 20px;
+    color: aquamarine;
+}
+a:hover{
+    color: blanchedalmond;
+}

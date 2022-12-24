@@ -8,9 +8,10 @@
 .hero{
 height: 150vh;
 width: 100%;
-background-image: url(tunnel.jpg);
+background-image: url(pexels-philippe-donn-1114690.jpg);
 background-size: cover;
 background-position: center;
+
 }
 
 nav{
@@ -19,6 +20,12 @@ nav{
 	padding-top: 20px;
 	padding-left: 4%;
 	padding-right: 4%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 722);
+	width: 100%;
+	height: 100px;
+	z-index: 10;
+
 }
 
 nav ul li{
@@ -136,13 +143,39 @@ a{
 	}
 	
 	.skills .skills_content .left p{
-		color: rgb(50, 100, 150);
+		color: rgb(134, 180, 225);
 		padding: 10px 0px;
 	}
 	.skills .skills_content .info{
 		color: rgb(200, 45, 100);
+		padding: 10px;
 	}
 	
+	.skills .skills_content .right .line{
+		height: 5px;
+		width: 100%;
+		
+	}
+	.skills.skills_content.right.line:before{
+		content: "";
+		position: absolute;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: rgb(71, 58, 155);
+	}
+	.skills .skills_content .right .python:before{
+		width: 59%;
+	}
+	.skills .skills_content .right .cpp:before{
+		width: 68%;
+	}
+	.skills .skills_content .right .html:before{
+		width: 44%;
+	}
+	.skills .skills_content .right .css:before{
+		width: 48%;
+	}
 .about{
 	width: 100%;
 	padding: 100px 0px;
@@ -249,4 +282,130 @@ h5{
 	background-color: transparent;
 	border: 2px solid #0064C8;
 	cursor: pointer;
+}
+
+#contact{
+	background-color: rgb(4, 21, 39);
+	width: 100%;
+	padding-top: 10px;
+	display: flex;
+	height: 100%;
+}
+#contact .contact_right{
+    color: aliceblue;	
+	width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: space-around;
+	margin-top: 200px;
+}
+#contact_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	margin-top: 100px;
+}
+#name{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(59, 62, 65);
+    border: 1solid red 1px;
+    color: aliceblue;
+}
+#email{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(59, 62, 65);
+    border: 1solid red 1px;
+    color: aliceblue;
+}
+#message{
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(59, 62, 65);
+    border: 1solid red 1px;
+    color: aliceblue;
+}
+#contact_left{
+    color: rgb(143, 25, 25);
+}
+#contact_left2{
+    color: white;
+    font-size: 45px;
+}
+#contact_left3{
+    color: aliceblue;
+    font-size: 20px;
+}
+#contact_left4{
+    font-size: 20px;
+    color: rgb(131, 84, 241);
+	padding-top: 50px;
+}
+#contact_left4:hover{
+    color: rgb(75, 26, 26);
+}
+.contact_button{
+	color: rgb(8, 43, 70);
+	width: 40px;
+	height: 25px;
+	border-radius: double 8px;
+	margin-top: 50px;
+}
+.contact_button:hover{
+	color: rgb(71, 116, 111);
+}
+
+footer{
+	width: 100%;
+	height: 400px;
+	background-color: #2d2929;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+p{
+	color: aliceblue;
+}
+.first_p{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+.second_p{
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+}
+.socoal{
+	/* display: flex; */
+}
+.social a{
+	/* display: flex; */
+	width: 45px;
+	height: 45px;
+	font-size: 45px;
+	align-items: center;
+	justify-content: center;
+	margin: 22px 10px;
+	background-color: #8116168d;
+	border-radius: 60%;
+	text-decoration: none;
+	color: white;
+}
+.social a:hover{
+	transform: 0.3;
+
+}
+.end{
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bolder;
 }
